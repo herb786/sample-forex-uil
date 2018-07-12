@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+    android:id="@+id/rootFirstPage"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ContentDescription"
+    tools:background="@android:color/holo_orange_dark">
+
+    <ImageView
+        android:id="@+id/img01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/footprint1"
+        app:layout_widthPercent="25%"
+        app:layout_marginTopPercent="20%"/>
+
+    <ImageView
+        android:id="@+id/img02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/footprint2"
+        app:layout_widthPercent="25%"
+        app:layout_marginRightPercent="10%" />
+
+
+    <ImageView
+        android:id="@+id/img03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/footprint3"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        app:layout_widthPercent="25%"
+        app:layout_marginBottomPercent="20%" />
+
+    <ImageView
+        android:id="@+id/img04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/footprint4"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        app:layout_widthPercent="25%"
+        app:layout_marginLeftPercent="10%" />
+
+
+</android.support.percent.PercentRelativeLayout>
